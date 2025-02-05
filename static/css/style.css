@@ -1,0 +1,52 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Simple font */
+}
+
+/* Background for dark-themed elements */
+.bg-dark {
+    background-color: #75767B; /* Simple gray background */
+    color: rgb(20, 8, 8); /* White text for contrast */
+    padding: 15px;  /* Adds padding inside */
+}
+
+/* Margin top for spacing */
+.mt-50 {
+    margin-top: 50px;
+}
+
+/* Styling for canvas element */
+#canvas {
+    border: 2px solid #333; /* Simple border */
+    padding: 10px; /* Adds padding inside the canvas */
+}
+
+/* Form inputs */
+input[type="text"], select, button {
+    width: 100%;  /* Full width */
+    padding: 10px; /* Padding for input comfort */
+    margin-bottom: 10px;  /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px;  /* Slight rounding of edges */
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;  /* Green button */
+    color: white;  /* White text */
+    cursor: pointer;  /* Pointer on hover */
+}
+
+button:hover {
+    background-color: #45a049;  /* Darker green on hover */
+}
+
+/* Container */
+.container {
+    max-width: 1200px; /* Maximum width */
+    margin: 0 auto; /* Centering */
+    padding: 20px;
+}
